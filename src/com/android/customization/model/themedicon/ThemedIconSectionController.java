@@ -64,7 +64,7 @@ public class ThemedIconSectionController implements
 
     @Override
     public boolean isAvailable(@Nullable Context context) {
-        return context != null && mThemedIconOptionsProvider.isThemedIconAvailable();
+        return false;
     }
 
     @Override

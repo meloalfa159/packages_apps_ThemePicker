@@ -130,6 +130,10 @@ public class ThemedIconSwitchProvider {
         });
     }
 
+    protected ThemedIconUtils getThemedIconUtils() {
+        return mThemedIconUtils;
+    }
+
     private void postMainThread(Runnable runnable) {
         new Handler(Looper.getMainLooper()).post(runnable);
     }
