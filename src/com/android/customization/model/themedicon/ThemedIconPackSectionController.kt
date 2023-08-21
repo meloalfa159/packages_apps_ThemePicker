@@ -97,9 +97,7 @@ class ThemedIconPackSectionController(
         }
     }
 
-    override fun isAvailable(context: Context): Boolean {
-        return themedIconSwitchProvider.isThemedIconAvailable()
-    }
+    override fun isAvailable(context: Context?) = themedIconSwitchProvider.isThemedIconAvailable()
 
     override fun createView(context: Context): ThemedIconPackSectionView {
         val view = LayoutInflater.from(context).inflate(
