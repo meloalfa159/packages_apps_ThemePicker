@@ -50,8 +50,6 @@
     <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
 
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-
     <application
         tools:replace="android:icon,android:name"
         android:extractNativeLibs="false"
